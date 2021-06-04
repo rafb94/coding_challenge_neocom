@@ -1,4 +1,4 @@
-import RepoCategorizer from './components/RepoCategorizer';
+import RepoFetcher from './components/RepoFetcher.js';
 import './App.css';
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <RepoCategorizer />
+        <RepoFetcher />
       </header>
     </div>
   );

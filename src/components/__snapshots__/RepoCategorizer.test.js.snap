@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test RepoCategorizer with 4 repos should match snapshot 1`] = `ShallowWrapper {}`;
+
+exports[`Test RepoCategorizer with no repos should match snapshot 1`] = `ShallowWrapper {}`;

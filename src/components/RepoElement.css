@@ -1,21 +1,32 @@
 .container{
+    border-radius: 10px;
     margin: 2em 4em;
-    background-color: grey;
+    background-color: #e6e6e6;
     height: 6em;
     line-height: 6em;
+    border: 1px solid black;
 
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
 
+.starred{
+    background-color:#ffb3b3;
+}
+
+.starred button{
+    opacity: 0.5
+}
+
 .container>* {
-    flex: 1 1 100px;
+    flex-grow: 3;
+    flex-basis: 0;
     text-align: center;
 }
 
-
-
-.container> button {
-    margin: 1em;
+button {
+    height: 5em;
+    width: 10em;
+    border-radius: 5px;
 }
