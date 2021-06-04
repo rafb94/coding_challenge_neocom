@@ -1,0 +1,21 @@
+.container{
+    margin: 2em 4em;
+    background-color: grey;
+    height: 6em;
+    line-height: 6em;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.container>* {
+    flex: 1 1 100px;
+    text-align: center;
+}
+
+
+
+.container> button {
+    margin: 1em;
+}
